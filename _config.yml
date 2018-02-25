@@ -1,7 +1,7 @@
 name: Albert Bikeev
 description: IT cool stories
 avatar: >-
-  scala-logo-hover.jpg
+  logo.jpg
 personal:
     avatar: >-
         ava.jpg
@@ -10,7 +10,7 @@ footer-links:
   github: kell18
   linkedin: 'https://ru.linkedin.com/in/albert-bikeev-6575707a'
   stackoverflow: 'https://stackoverflow.com/users/story/2453144'
-disqus: kell18_blog
+disqus: kell18-blog
 google_analytics: null
 url: null
 baseurl: ''
