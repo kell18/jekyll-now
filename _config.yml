@@ -1,14 +1,16 @@
 name: Albert Bikeev
-description: Software Developer from Kazan'
+description: IT cool stories
 avatar: >-
-  http://kell18.io/scala-logo-hover.jpg
+  scala-logo-hover.jpg
+personal:
+    avatar: >-
+        ava.jpg
 footer-links:
   email: albert.bikeev@gmail.com
   github: kell18
   linkedin: 'https://ru.linkedin.com/in/albert-bikeev-6575707a'
-  twitter: albert_kk18
   stackoverflow: 'https://stackoverflow.com/users/story/2453144'
-disqus: null
+disqus: kell18_blog
 google_analytics: null
 url: null
 baseurl: ''

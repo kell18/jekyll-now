@@ -9,18 +9,37 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+.personal-ava {
+  border-radius: 100%;
+  border: 2px solid $lightGray;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  width: 256px;
+
+  img {
+    max-width: 100%
+  }
+}
+
+
+
 /**************/
 /* BASE RULES */
 /**************/
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  position: relative;
+  min-height: 100%;
 }
 
 .container {
@@ -118,6 +137,31 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+}
+
+.tags {
+  font-style: italic;
+  color: $gray;
+
+  span {
+    color: #39739d;
+    background-color: #E1ECF4;
+    border-color: transparent;
+
+    position: relative;
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    font-size: 14px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    transition: all .15s ease-in-out;
+  }
 }
 
 // Specify the color of the selection
@@ -271,11 +315,18 @@ nav {
   }
 }
 
+div#main {
+  padding-bottom: 100px;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 footer {

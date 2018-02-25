@@ -1,15 +1,15 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: about
+permalink: "/about/"
+tags:
+- default
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+&nbsp;&nbsp; I am a software developer from Kazan', writing mostly on Python and Scala, also well familiar with C++, C# and Java. Interested in algorithms, system programming, visualization. I like self-development and interesting tasks. My hobbies are sports, a little bit of music and travels.
 
 ### Contact me
 
 [email@domain.com](mailto:email@domain.com)
+
+{% include svg-icons.html %}
