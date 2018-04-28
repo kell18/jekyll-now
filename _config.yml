@@ -1,1 +1,35 @@
 theme: jekyll-theme-minimal
+name: Albert Bikeev
+description: IT cool stories
+avatar: >-
+  logo.jpg
+personal:
+    avatar: >-
+        ava.jpg
+footer-links:
+  email: albert.bikeev@gmail.com
+  github: kell18
+  linkedin: 'https://ru.linkedin.com/in/albert-bikeev-6575707a'
+  stackoverflow: 'https://stackoverflow.com/users/story/2453144'
+disqus: kell18-blog
+google_analytics: null
+url: null
+baseurl: ''
+permalink: '/:title/'
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: ':expanded'
+pinterest:
+  - jekyll-sitemap
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
